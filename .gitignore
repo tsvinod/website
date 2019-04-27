@@ -1,0 +1,6 @@
+#ignores the log.rtf file from repository tracking
+Log.rtf
+#VIM sometimes creates duplicate instances on the file, these appear with a ~, all such files will be ignored 
+*~
+#All tmp folders will be ignored from repository tracking
+tmp/
